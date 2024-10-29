@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="٢٠٢٤-١٠-١٧T٠٧:٤٩:٠٦Z" name="Suite" finished-at="٢٠٢٤-١٠-١٧T٠٧:٥٠:١٤Z" duration-ms="67839">
+    <groups>
+    </groups>
+    <test started-at="٢٠٢٤-١٠-١٧T٠٧:٤٩:٠٦Z" name="Android" finished-at="٢٠٢٤-١٠-١٧T٠٧:٥٠:١٤Z" duration-ms="67839">
+      <class name="testaddtask">
+        <test-method is-config="true" signature="android_setup()[pri:0, instance:testaddtask@71b1176b]" started-at="٢٠٢٤-١٠-١٧T٠٧:٤٩:٠٦Z" name="android_setup" finished-at="٢٠٢٤-١٠-١٧T٠٧:٤٩:٣٥Z" duration-ms="28381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- android_setup -->
+        <test-method signature="test_add_task()[pri:0, instance:testaddtask@71b1176b]" started-at="٢٠٢٤-١٠-١٧T٠٧:٤٩:٣٥Z" name="test_add_task" finished-at="٢٠٢٤-١٠-١٧T٠٧:٥٠:١٤Z" duration-ms="39397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_task -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testaddtask@71b1176b]" started-at="٢٠٢٤-١٠-١٧T٠٧:٥٠:١٤Z" name="tearDown" finished-at="٢٠٢٤-١٠-١٧T٠٧:٥٠:١٤Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testaddtask -->
+    </test> <!-- Android -->
+  </suite> <!-- Suite -->
+</testng-results>
