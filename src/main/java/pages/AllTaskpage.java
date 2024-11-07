@@ -23,10 +23,17 @@ public AllTaskpage(AppiumDriver driver) {
 @FindBy(id="com.splendapps.splendo:id/fabAddTask")
 
 WebElement addTaskBtn;
+@FindBy(id= "com.splendapps.splendo:id/checkDone")
+WebElement checkdone;
 
 public void clickaddtaskbtn(){
 	waitforvisibility(addTaskBtn);
 	click(addTaskBtn);
 	
+}
+public void checkdone()
+{
+	waitforvisibility(checkdone);
+	click(checkdone);
 }
 }
